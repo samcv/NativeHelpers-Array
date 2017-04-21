@@ -1,23 +1,34 @@
 {
-  "name" : "NativeHelpers::Array",
-  "tags" : [ "utils", "native", "array" ],
-  "authors" : [ "Jonathan Stowe <jns+git@gellyfish.co.uk>" ],
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "auth" : "github:jonathanstowe",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/NativeHelpers-Array.git"
+  "name": "NativeHelpers::Array",
+  "support": {
+    "source": "https://github.com/samcv/NativeHelpers-Array",
+    "bugtracker": "https://github.com/samcv/NativeHelpers-Array/issues"
   },
-  "source-url" : "git://github.com/jonathanstowe/NativeHelpers-Array.git",
-  "perl" : "6.c",
-  "build-depends" : [
+  "source-url": "git://github.com/samcv/NativeHelpers-Array.git",
+  "perl": "6.c",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "build-depends": [
+    
   ],
-  "provides" : {
-     "NativeHelpers::Array" : "lib/NativeHelpers/Array.pm"
+  "auth": "github:samcv",
+  "depends": [
+    
+  ],
+  "license": "Artistic-2.0",
+  "tags": [
+    "utils",
+    "native",
+    "array"
+  ],
+  "provides": {
+    "NativeHelpers::Array": "lib/NativeHelpers/Array.pm"
   },
-  "depends" : [
+  "test-depends": [
+    
   ],
-  "test-depends" : [
+  "version": "v0.0.2",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ],
-  "description" : "Helper subroutines for working with Perl6 Native Arrays (CArray)",
-  "version" : "v0.0.2"
+  "description": "Helper subroutines for working with Perl6 Native Arrays (CArray)"
 }
